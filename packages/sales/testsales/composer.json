@@ -1,0 +1,15 @@
+{
+    "name": "sales/testsales",
+    "description": "A brief description of your package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sales\\TestSales\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^10.0"
+    }
+}
